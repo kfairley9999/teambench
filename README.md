@@ -1,6 +1,6 @@
 # TeamBench
 
-[![ci](https://github.com/kfairy9999/teambench/actions/workflows/ci.yml/badge.svg)](https://github.com/kfairy9999/teambench/actions/workflows/ci.yml)
+[![ci](https://github.com/kfairley9999/teambench/actions/workflows/ci.yml/badge.svg)](https://github.com/kfairley9999/teambench/actions/workflows/ci.yml)
 
 **TeamBench** is a benchmark and harness for a question most single-agent evals do not ask: does a *team* of agents complete a multi-step task *reliably*? It ships twenty deterministic, auto-graded tasks, four orchestration patterns, a failure taxonomy, and a fully offline scripted mock so CI can replay the published baseline without a network.
 
@@ -15,7 +15,7 @@ Codegen evals usually score one model, one sample, one pass@k ("did at least one
 Python 3.10 or newer.
 
 ```bash
-python -m pip install "git+https://github.com/kfairy9999/teambench.git"
+python -m pip install "git+https://github.com/kfairley9999/teambench.git"
 # or, from a checkout, with dev tools:
 python -m pip install -e ".[dev]"
 
